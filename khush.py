@@ -1,6 +1,14 @@
-from flask import Flask, render_template_string
+import streamlit as st
 
-app = Flask(__name__)
+st.title("Happy Birthday Khushboo 🎂")
+
+st.write("Welcome to the birthday page!")
+
+st.image("khushboo.jpg")
+
+if st.button("Click for Surprise"):
+    st.balloons()
+    st.success("Happy Birthday Khushboo 💖")
 
 HTML_TEMPLATE = '''<!DOCTYPE html>
 <html lang="en">

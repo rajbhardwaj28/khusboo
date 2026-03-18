@@ -4,7 +4,7 @@ st.title("Happy Birthday Khushboo 🎂")
 
 st.write("Welcome to the birthday page!")
 
-st.image("khushboo.jpg")
+st.image(""C:\Users\RAMAN\Downloads\WhatsApp Image 2026-03-18 at 11.19.25 AM.jpeg"")
 
 if st.button("Click for Surprise"):
     st.balloons()
